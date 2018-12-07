@@ -1,4 +1,4 @@
-# Bootcamp NodeJS Desafio 1
+# Bootcamp NodeJS Desafio 2
 
 Aplicação utilizando NodeJS, ExpressJS, SequelizeJS, Nunjucks, EditorConfig e ESLint.
 
