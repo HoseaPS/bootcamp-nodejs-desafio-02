@@ -22,11 +22,12 @@ class App {
       autoescape: true
     })
 
+    this.express.use(express.static(path.resolve(__dirname, 'public')))
     this.express.set('view engine', 'njk')
   }
 
   routes () {
-    this.express.use(require('./app/routes'))
+    this.express.use(require('./routes'))
   }
 }
 
