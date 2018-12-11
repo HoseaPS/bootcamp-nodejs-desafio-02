@@ -1,6 +1,6 @@
 const { User } = require('../models')
 
-class UserControler {
+class UserController {
   create (req, res) {
     return res.render('auth/signup')
   }
@@ -16,4 +16,4 @@ class UserControler {
   }
 }
 
-module.exports = new UserControler()
+module.exports = new UserController()
