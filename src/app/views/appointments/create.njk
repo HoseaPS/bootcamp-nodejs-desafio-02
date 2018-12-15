@@ -5,7 +5,7 @@
     <strong>Agendando horário</strong>
     <div class="provider">
       <div>
-        <img src="/files/{{ provider.avatar }}" />
+        <img src="{% if provider.avatar !== 'null' %}/files/{{ provider.avatar }}{% endif %}" />
         <strong>{{ provider.name }}</strong>
       </div>
     </div>
