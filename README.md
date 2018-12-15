@@ -1,6 +1,6 @@
 # Bootcamp NodeJS Desafio 2
 
-Aplicação utilizando NodeJS, ExpressJS, SequelizeJS, Nunjucks, EditorConfig, ESLint, Session File Store e BCrypt.
+Aplicação utilizando NodeJS, ExpressJS, SequelizeJS, Nunjucks, EditorConfig, ESLint, Session File Store, BCrypt e MomentJS.
 
 ## App
 
